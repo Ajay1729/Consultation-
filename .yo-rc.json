@@ -33,9 +33,17 @@
     "enableTranslation": true,
     "clientPackageManager": "npm",
     "nativeLanguage": "en",
-    "languages": ["en"],
+    "languages": [
+      "en"
+    ],
     "blueprints": [],
     "skipClient": true,
     "skipUserManagement": true
+  },
+  "generator-jhipster-swagger-cli": {
+    "promptValues": {
+      "inputSpec": "/home/ajay/Downloads/apache-tomcat-9.0.30/webapps/activiti-rest/docs/activiti.json",
+      "cliName": "activiti"
+    }
   }
 }
